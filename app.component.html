@@ -1,0 +1,5 @@
+<input type="text" placeholder="Search..." (keyup)="onKeyDown($event)">
+
+<app-item *ngFor="let item of list" [items]="item">
+  {{item.name}}
+</app-item>
